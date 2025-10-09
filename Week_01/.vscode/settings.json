@@ -3,6 +3,8 @@
     "*.c": "c",
     "iostream": "cpp",
     "random": "cpp",
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "type_traits": "cpp",
+    "ostream": "cpp"
   }
 }
