@@ -8,20 +8,23 @@ int main()
 
   int t;
   cin >> t;
+
   while (t--)
   {
-    int n, a, b;
-    cin >> n >> a >> b;
-    int dis = 0;
+    int n;
+    cin >> n;
+    vector<int> a;
     for (int i = 0; i < n; i++)
     {
-      int x, y;
-      cin >> x >> y;
-
-      dis = abs((a - x) + (b - y));
+      int x;
+      cin >> x;
+      a.push_back(x);
     }
 
-    cout << dis << "\n";
+    for (int i = 0; i < n; i++)
+    {
+      cout << a[i] << " ";
+    }
   }
 
   return 0;
